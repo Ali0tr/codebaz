@@ -1,0 +1,30 @@
+let score = '100'
+
+console.log(score + 1); // returns 1001 ... it concatinates them 
+console.log(typeof score); // it returns the type of the score which is 'string'
+
+// converting a stirng to number
+// 1- explicitly we convert them by saying the word 'String' or 'Number'
+
+score = Number(score)
+console.log(typeof score); // it returns now 'number'
+
+
+let sth = Number('hello')
+console.log(sth); // returns NaN 
+
+let five = 5;
+five = String(five) // converts that to string so that is a string now
+
+// 2- implicitly
+// when we compare two parameters with abstract comparison it implicitly converts their types behind the scene
+
+
+// these are 'false' 
+let falsy1 = ''
+let falsy2 = 0;
+
+// these are 'true'
+let truthy1 = 'every string'
+let truthy2 = '0'
+let truthy3 = 5 // any number
