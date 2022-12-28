@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="page-title">the DOM</h1>
+    <div>
+      <p>hello, world</p>
+      <p>Lorem, ipsum.</p>
+      <p class="error1">this is an error message</p>
+    </div>
+    <div class="error1"></div>
+    <div class="content">
+      <p>some texts here</p>
+    </div>
+    <a href="https://google.com">google</a>
+
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti id
+      eaque similique doloribus molestiae officia, amet vel exercitationem odit
+      possimus voluptatem minus. Voluptatum corporis error tenetur repellendus
+      optio, harum officia.
+    </p>
+    <div class="exercise">
+      <p>lorem <span style="display: none">error</span> ipsum</p>
+      // !important: by using innerText we can't see error ... if we log this
+      paragraph it will return 'lorem ipsum' ... however by using textContent it
+      will see displayed none elements and it will return 'lorem error ipsum'
+      <p>success lorem ipsum</p>
+      <p>Lorem, ipsum dolor</p>
+      <p>Lorem, ipsum success</p>
+      <p>error ipsum lorem</p>
+      <p>Lorem, ipsum error</p>
+      <p>lorem pinsum lorem</p>
+    </div>
+    <!-- <script src="603_DocumentObjectModel.js"></script> -->
+    <!-- <script src="604_queryTheDOM.js"></script> -->
+    <!-- <script src="605_Adding&ChangingContent.js"></script>
+    <script src="606_Getting&SettingAttributes.js"></script>
+    <script src="607_changingCSSStyles.js"></script> -->
+    <!-- <script src="608_Adding&RemovingClasses.js"></script> -->
+    <script src="609_Parents&Children&Siblings.js"></script>
+  </body>
+</html>
